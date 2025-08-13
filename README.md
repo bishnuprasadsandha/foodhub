@@ -64,15 +64,11 @@ Built using **Kotlin** and **Jetpack Compose**, and powered by **Firebase**, it 
 ## 📸 Screenshots
 
 
-| ### 📲 User App | ### 🛠️ Admin App |
+|📲 User Appp  |🛠️ Admin App |
 |-------------|-------------|
 | ![Home Screen](screenshots/Screenshot_20250417-173548.The%20Food%20Hub.png) | ![Add Vehicle](screenshots/Screenshot_20250417-173503.Admin%20The%20Food%20Hub.png) |
 
 
-![User Home Screen](screenshots/Screenshot_20250417-173548.The%20Food%20Hub.png)
-
- 
-![Admin Dashboard](screenshots/Screenshot_20250417-173503.Admin%20The%20Food%20Hub.png)
 
 ---
 
@@ -94,4 +90,5 @@ This project is licensed under the [MIT License](LICENSE).
 ## 🙌 Support
 
 If you like this project, please ⭐ the repo and share it with others!
+
 
