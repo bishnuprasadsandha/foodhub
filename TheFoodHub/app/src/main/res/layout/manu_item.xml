@@ -67,7 +67,7 @@
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="@+id/manuPrice"
-                app:layout_constraintHorizontal_bias="0.403"
+                app:layout_constraintHorizontal_bias="0.507"
                 app:layout_constraintStart_toStartOf="@+id/manuPrice"
                 app:layout_constraintTop_toBottomOf="@+id/manuPrice" />
 
@@ -80,8 +80,9 @@
                 android:text="$5"
                 android:textColor="@android:color/holo_red_light"
                 android:textSize="24sp"
+                app:layout_constraintBottom_toTopOf="@+id/manuAddToCart"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.713"
+                app:layout_constraintHorizontal_bias="0.721"
                 app:layout_constraintStart_toEndOf="@+id/manuFoodName"
                 app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>

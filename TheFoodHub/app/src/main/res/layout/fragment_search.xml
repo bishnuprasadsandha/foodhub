@@ -7,7 +7,6 @@
     android:background="@color/white"
     tools:context=".Fragment.SearchFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:id="@+id/textView19"
         android:layout_width="wrap_content"
