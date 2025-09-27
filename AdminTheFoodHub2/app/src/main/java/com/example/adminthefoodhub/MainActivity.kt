@@ -1,13 +1,9 @@
 package com.example.adminthefoodhub
 
-import android.app.Activity
+
 import android.content.Intent
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-import com.example.adminthefoodhub.adapter.PendingOrderAdapter
 import com.example.adminthefoodhub.databinding.ActivityMainBinding
 import com.example.adminthefoodhub.model.OrderDetails
 import com.google.firebase.auth.FirebaseAuth
