@@ -30,7 +30,7 @@ Built using **Kotlin** and **Jetpack Compose**, and powered by **Firebase**, it 
 ## 🛠️ Tech Stack
 
 - 🔷 **Kotlin**
-- 🧩 **Jetpack Compose**
+- 🧩 **XML**
 - 🔐 **Firebase Authentication**
 - 📦 **Firebase Realtime Database**
 - 📱 **Android Studio**
