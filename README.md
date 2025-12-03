@@ -2,7 +2,7 @@
 
 **The Food Hub** is a modern food delivery Android application that includes **two separate apps** – one for **Users** to browse and order food, and one for **Admins** to manage the app's content and orders.
 
-Built using **Kotlin** and **Jetpack Compose**, and powered by **Firebase**, it delivers a smooth and dynamic food ordering experience.
+Built using **Kotlin** and **XML**, and powered by **Firebase**, it delivers a smooth and dynamic food ordering experience.
 
 ---
 
