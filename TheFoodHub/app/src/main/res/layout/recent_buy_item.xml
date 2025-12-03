@@ -53,14 +53,13 @@
                 android:id="@+id/foodPrice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginEnd="45dp"
                 android:fontFamily="@font/lato_bold"
                 android:text="₹5"
                 android:textColor="@android:color/holo_red_light"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.714"
-                app:layout_constraintStart_toEndOf="@+id/foodName"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView

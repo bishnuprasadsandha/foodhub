@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.WindowInsetsControllerCompat
 import com.example.thefoodhub.databinding.ActivityLoginBinding
 import com.example.thefoodhub.model.UserModel
 import com.google.firebase.auth.FirebaseAuth
@@ -27,6 +28,11 @@ class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+
+        val windowInsetsController = WindowInsetsControllerCompat(window, window.decorView)
+
+        window.statusBarColor = getColor(R.color.white)
+        windowInsetsController.isAppearanceLightStatusBars = true
 
         //initialization of firebase auth
         auth = Firebase.auth

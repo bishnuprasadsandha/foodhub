@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.WindowInsetsControllerCompat
 import com.example.thefoodhub.databinding.ActivitySignBinding
 import com.example.thefoodhub.model.UserModel
 import com.google.firebase.auth.FirebaseAuth
@@ -28,6 +29,11 @@ class SignActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+
+        val windowInsetsController = WindowInsetsControllerCompat(window, window.decorView)
+
+        window.statusBarColor = getColor(R.color.white)
+        windowInsetsController.isAppearanceLightStatusBars = true
 
         //initialize firebase auth
         auth = Firebase.auth

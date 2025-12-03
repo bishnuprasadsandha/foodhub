@@ -8,6 +8,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.WindowInsetsControllerCompat
 
 
 class Splash_Screen : AppCompatActivity() {
@@ -15,6 +16,12 @@ class Splash_Screen : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_splash_screen)
+
+        val windowInsetsController = WindowInsetsControllerCompat(window, window.decorView)
+
+        window.statusBarColor = getColor(R.color.white)
+        windowInsetsController.isAppearanceLightStatusBars = true
+
         Handler(Looper.getMainLooper()).postDelayed({
             val intent = Intent(this@Splash_Screen, StartActivity::class.java)
             startActivity(intent)
